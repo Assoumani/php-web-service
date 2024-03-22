@@ -1,0 +1,17 @@
+{
+    "name": "assou/rest",
+    "autoload": {
+        "psr-4": {
+            "Assou\\Rest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Assou",
+            "email": "assoumani.mutabaruka@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}
