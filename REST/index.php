@@ -38,6 +38,7 @@ function verify()
 // Routeur pour les différentes opérations CRUD
 switch ($method) {
     case 'GET':
+        global $check;
         verify();
         if ($check) {
             preg_match("/^\/PHP-WEB-SERVICE\/REST\/users\/?(\d+)?$/", $uri, $matches);
